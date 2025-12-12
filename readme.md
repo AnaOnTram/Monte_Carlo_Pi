@@ -2,7 +2,7 @@
 This project reflect the course work that touch the classic *Monte Carlo simulation*.
 
 ## General Logic
-![Graphic Illustration](illustration.png)
+<img src="illustration.png" width="400"/>
 - Area of the square: $$4r^2$$
 - Area of the circle: $$\pi r^2$$
 
