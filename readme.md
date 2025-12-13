@@ -61,6 +61,7 @@ Benchmarking with:
   - Block Size: 256
   - Samples Per Thread: 1000
   - Total Samples: 1316134912000
+------------------------
 
 Performance Metrics:
 ------------------------
@@ -69,4 +70,22 @@ Error: 3.86614e-06
 Kernel Time: 142873 ms
 Throughput: 9.21195e+09 samples/s (9.21195 GS/s)
 ------------------------
+```
+- Tesla T4
+```bash
+Enter approximate total number of samples (e.g. 100000000): 10000000000000000
+Benchmarking with:
+  - Grid Size: 5141152
+  - Block Size: 256
+  - Samples Per Thread: 1000
+  - Total Samples: 1316134912000
+
+Performance Metrics:
+------------------------
+Estimated Pi: 3.14159
+Error: 3.86614e-06
+Kernel Time: 37923.4 ms
+Throughput: 3.47051e+10 samples/s (34.7051 GS/s)
+------------------------
+```
 
